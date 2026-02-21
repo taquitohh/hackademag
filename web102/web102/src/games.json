@@ -1,0 +1,144 @@
+{
+  "games": [
+    {
+      "id": "#1 #multiplayer #PC #0-10 #addToCart",
+      "title": "Among Us",
+      "price": 4.99,
+      "url": "./src/img/8.png",
+      "alt": "Among Us"
+    },
+    {
+      "id": "#2 #openworld #PlayStation #50-100 #addToCart",
+      "title": "Assassin's Creed Valhalla",
+      "price": 59.99,
+      "url": "./src/img/19.png",
+      "alt": "Assassin's Creed Valhalla"
+    },
+    {
+      "id": "#3 #story #Nintendo #50-100 #addToCart",
+      "title": "Animal Crossing: New Horizons",
+      "price": 59.99,
+      "url": "./src/img/12.png",
+      "alt": "Animal Crossing: New Horizons"
+    },
+    {
+      "id": "#4 #shooter #multiplayer #PlayStation #50-100 #addToCart",
+      "title": "Call of Duty: Modern Warfare",
+      "price": 59.99,
+      "url": "./src/img/9.png",
+      "alt": "Call of Duty: Modern Warfare"
+    },
+    {
+      "id": "#5 #openworld #PC #10-50 #addToCart",
+      "title": "Cyberpunk 2077",
+      "price": 49.99,
+      "url": "./src/img/5.png",
+      "alt": "Cyberpunk 2077"
+    },
+    {
+      "id": "#6 #rpg #PlayStation #10-50 #addToCart",
+      "title": "Dark Souls III",
+      "price": 39.99,
+      "url": "./src/img/13.png",
+      "alt": "Dark Souls III"
+    },
+    {
+      "id": "#7 #shooter #PC #50-100 #addToCart",
+      "title": "Doom Eternal",
+      "price": 59.99,
+      "url": "./src/img/14.png",
+      "alt": "Doom Eternal"
+    },
+    {
+      "id": "#8 #multiplayer #PlayStation #10-50 #addToCart",
+      "title": "FIFA 22",
+      "price": 49.99,
+      "url": "./src/img/10.png",
+      "alt": "FIFA 22"
+    },
+    {
+      "id": "#9 #multiplayer #PlayStation #0-10 #addToCart",
+      "title": "Fortnite",
+      "price": 0.01,
+      "url": "./src/img/7.png",
+      "alt": "Fortnite"
+    },
+    {
+      "id": "#10 #openworld #PC #10-50 #addToCart",
+      "title": "Grand Theft Auto V",
+      "price": 29.99,
+      "url": "./src/img/11.png",
+      "alt": "Grand Theft Auto V"
+    },
+    {
+      "id": "#11 #openworld #PlayStation #50-100 #addToCart",
+      "title": "Ghost of Tsushima",
+      "price": 59.99,
+      "url": "./src/img/18.png",
+      "alt": "Ghost of Tsushima"
+    },
+    {
+      "id": "#12 #rpg #PC #10-50 #addToCart",
+      "title": "Hades",
+      "price": 24.99,
+      "url": "./src/img/15.png",
+      "alt": "Hades"
+    },
+    {
+      "id": "#13 #openworld #PlayStation #10-50 #addToCart",
+      "title": "Horizon Zero Dawn",
+      "price": 49.99,
+      "url": "./src/img/16.png",
+      "alt": "Horizon Zero Dawn"
+    },
+    {
+      "id": "#14 #multiplayer #PC #10-50 #addToCart",
+      "title": "Minecraft",
+      "price": 19.99,
+      "url": "./src/img/6.png",
+      "alt": "Minecraft"
+    },
+    {
+      "id": "#15 #openworld #PlayStation #10-50 #addToCart",
+      "title": "Red Dead Redemption 2",
+      "price": 39.99,
+      "url": "./src/img/3.png",
+      "alt": "Red Dead Redemption 2"
+    },
+    {
+      "id": "#16 #story #PlayStation #50-100 #addToCart",
+      "title": "Resident Evil Village",
+      "price": 59.99,
+      "url": "./src/img/20.png",
+      "alt": "Resident Evil Village"
+    },
+    {
+      "id": "#17 #rpg #PlayStation #10-50 #addToCart",
+      "title": "Sekiro: Shadows Die Twice",
+      "price": 39.99,
+      "url": "./src/img/17.png",
+      "alt": "Sekiro: Shadows Die Twice"
+    },
+    {
+      "id": "#18 #story #Nintendo #10-50 #addToCart",
+      "title": "Super Mario Odyssey",
+      "price": 49.99,
+      "url": "./src/img/2.png",
+      "alt": "Super Mario Odyssey"
+    },
+    {
+      "id": "#19 #openworld #Nintendo #50-100 #addToCart",
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "price": 59.99,
+      "url": "./src/img/1.png",
+      "alt": "The Legend of Zelda: Breath of the Wild"
+    },
+    {
+      "id": "#20 #rpg #PC #10-50 #addToCart",
+      "title": "The Witcher 3: Wild Hunt",
+      "price": 29.99,
+      "url": "./src/img/4.png",
+      "alt": "The Witcher 3: Wild Hunt"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Roboto', monospace; */
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-content: center;
+  gap: 10px;
+  list-style: none;
+  background:  #3b3b3b;
+}
+
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  padding: 20px 27px;
+  width: 67px;
+  color: #fcfce4;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+ul li ul.dropdown, ul.dropdown1, ul.dropdown2, ul.dropdown3 li {
+  display: block;
+}
+
+ul li ul.dropdown, ul.dropdown1, ul.dropdown2, ul.dropdown3 {
+  width: 100%;
+  background: #3b3b3b;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+ul li.li_type:hover ul.dropdown1 {
+  display: block;
+  transform: translateX(121px);
+  margin-top: -63px;
+}
+
+ul li.li_price:hover ul.dropdown2 {
+  display: block;
+  transform: translateX(121px);
+  margin-top: -63px;
+}
+
+ul li.li_platform:hover ul.dropdown3 {
+  display: block;
+  transform: translateX(121px);
+  margin-top: -63px;
+}
+
+ul li a:hover {
+  background: #40623e; 
+}
+
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+
+ul input[type=text] {
+  border: 0.00001px solid #cccccc2e;
+  font-size: 15px;
+  background: #1b1b1b;
+  border-radius:100px;
+  width: 450px;
+  height: 37px;
+}
+
+ul input[placeholder=Search] {
+  padding-left: 10px;
+  color:  #fcfce4;
+  /* border-color: #fcfce4;; */
+}
+
+.logo, .home{
+  width: 210px;
+  height: 20px;
+  overflow: hidden;
+  background-color: #00000000;
+  border: 0.00001px solid #00000000;
+}
+
+.logo {
+ z-index: 2;
+}
+
+.home {
+ z-index: 1;
+}
+
+.home:hover {
+  cursor: pointer;
+  filter:contrast(2);
+}
+
+.div_logo ,.div_input {
+  align-self: center;
+}
+
+ul li button {
+  background: none;
+  border-radius: 5px;
+  background-color: #f0f0f01c;
+  border-color: #00000000;
+  padding: 5px;
+}
+
+ul li button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: #1b1b1b;
+}
+/* navbar.css */
+.total-cost {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  color:  #fcfce4;;
+  background-color: #f9f9f900;
+  text-align: left;
+  transform: translateX(-17px);
+}
+
+.total-cost button {
+  transform: translateX(-100px);
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #40623e;
+}
+/* navbar.css */
+.red-dot {
+  position: absolute;
+  top: 18px;  /* Adjust this value as necessary */
+  left: 22px;  /* Adjust this value as necessary */
+  width: 10px;
+  height: 10px;
+  background-color: rgba(224, 16, 16, 0.722);
+  border-radius: 50%;
+}
+
+.cart-link {
+  position: relative;  
+}
+
+/* navbar.css */
+
+/* Quantity controls container */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transform: translateX(-21px);
+  }
+
+/* Quantity control buttons */
+.quantity-controls button {
+  color: #1b1b1b;
+  background-color: transparent; /* Remove default white background */
+  border: 1px solid #cccccc39; /* Light gray border for visibility */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 10px; /* Add padding for better clickability */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions for hover effects */
+}
+
+/* Hover effect for quantity control buttons */
+.quantity-controls button:hover {
+  color: #ccc;
+  background-color: #f0f0f01c; /* Light gray background on hover */
+  border-color: #888; /* Darker gray border on hover */
+}
+
+/* Quantity text between the buttons */
+.quantity-controls span {
+  font-size: 16px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+}
+

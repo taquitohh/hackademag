@@ -1,0 +1,122 @@
+.categories {
+  text-align: center;
+  color: #8BC34A; /* Light green text color */
+  background-color:#32323294; /* Dark background color */
+  padding: 20px;
+}
+
+.categories p {
+  margin-top: 40px;
+    color: #fcfce4;
+    margin-left: 60px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.categories-grid {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.category-card {
+  background-color: #4444; /* Slightly lighter dark background for cards */
+  border-radius: 8px;
+  padding: 20px;
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-card:hover {
+  cursor: pointer;
+  background-color: #444444;
+}
+
+.category-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.category-info {
+  color: #8BC34A; /* Light green text color */
+}
+
+.category-label {
+  display: block;
+  font-size: 18px;
+  align-content: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.load-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #555555; /* Slightly lighter dark background for button */
+  color: #fcfce4; /* Light green text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: #666666; /* Slightly lighter hover color */
+}
+
+  .load-more:hover {
+    background-color: #5d7866;
+  }
+  
+
+  .action-icon::before {
+    content: url('path/to/action-icon.svg');
+  }
+  
+  .adventure-icon::before {
+
+    content: url('path/to/adventure-icon.svg');
+  }
+  
+  .fps-tps-icon::before {
+    content: url('path/to/fps-tps-icon.svg');
+  }
+  
+  .rpg-icon::before {
+    content: url('path/to/rpg-icon.svg');
+  }
+  
+  .indie-icon::before {
+    content: url('path/to/indie-icon.svg');
+  }
+  
+  .simulation-icon::before {
+    content: url('path/to/simulation-icon.svg');
+  }
+  
+  .strategy-icon::before {
+    content: url('path/to/strategy-icon.svg');
+  }
+  
+  .view_products {
+    width: 20%;
+    font-size: large;
+    background-color: rgb(57, 57, 57);
+    border: #666666;
+    padding: 10px;
+    border-radius: 10px;
+    color:  #fcfce4;;
+  }
+
+  .view_products:hover {
+    cursor: pointer;
+    background-color: #63636385;
+  }
