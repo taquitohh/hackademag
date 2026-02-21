@@ -67,11 +67,6 @@ Hackademag este un magazin web modern pentru jocuri video, construit cu React, T
 - Căutare după titlu
 - Adăugare rapidă în favorite sau coș
 
-## Screenshot interfață
-
-![Interfață Hackademag](web102/hackademag-logo-zip-file/png/logo-color.png)
-
-> Pentru screenshot live, adaugă o captură din browser în folderul `web102/hackademag-logo-zip-file/png/` și modifică linkul aici.
 
 ## Logo-uri și branding
 
